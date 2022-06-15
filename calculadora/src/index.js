@@ -9,9 +9,17 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <h1>Calculadora</h1>
     <Calculator />
   </React.StrictMode>
 );
+
+// root.render(
+//   <div>
+//     <h1>Calculadora</h1>
+//     <Calculator />
+//   </div>
+// );
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
