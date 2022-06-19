@@ -17,6 +17,7 @@ import './Button.css'
 //         {props.label}
 //     </button>
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default props => 
     <button 
     onClick={e => props.click && props.click(e.target.label)}
